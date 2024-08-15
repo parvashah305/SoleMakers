@@ -1,0 +1,181 @@
+[
+    {
+        "id":1,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 LOW ALTERNATE ROYAL TOE",
+        "price":7000,
+        "category":"Shoes",
+        "image":"https://crepdogcrew.com/cdn/shop/files/1_3b5d2e5e-9367-4413-a975-9749bb6bc59c.png?v=1710484515&width=1000"
+    },
+
+    {
+        "id":2,
+        "name":"ADIDAS",
+        "title":"ADIDAS SAMBA OG MAROON GOLD",
+        "price":8499,
+        "category":"Shoes",
+        "image":"https://crepdogcrew.com/cdn/shop/files/EditsbyAhmar01_c1d9826c-1c45-4b3f-b01c-b96a00e4d242.png?v=1716454384&width=1000"
+    },
+
+    {
+        "id":3,
+        "name":"ADIDAS YEEZY",
+        "title":"ADIDAS YEEZY BOOST 350 V2 BONE",
+        "price":15499,
+        "category":"Shoes",
+        "image":"https://crepdogcrew.com/cdn/shop/files/ADIDASYEEZYBOOST350V2BONE_2dcc6331-a75b-4eab-8c85-b73c384e999d.jpg?v=1690879541&width=1400"
+    },
+    
+    {
+        "id":4,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 4 RETRO MILITARY BLUE ",
+        "price":18499,
+        "category":"Shoes",
+        "image":"https://crepdogcrew.com/cdn/shop/files/supreme_70_9a8964e9-744b-49f8-9912-708d9a85553d.png?v=1714462809&width=1000"
+    },
+
+    {
+        "id":5,
+        "name":"ADIDAS YEEZY",
+        "title":"ADIDAS YEEZY FOAM RNNR ONYX",
+        "price":9999,
+        "category":"Shoes",
+        "image":"https://crepdogcrew.com/cdn/shop/products/foam2.png?v=1654679885&width=1400"
+    },
+
+    {
+        "id":6,
+        "name":"ADIDAS YEEZY",
+        "title":"ADIDAS YEEZY 350 V2 CARBON BELUGA",
+        "price":15499,
+        "category":"Shoes",
+        "image":"https://crepdogcrew.com/cdn/shop/files/EditsbyAhmar01_57b3126b-b12c-4e01-8c82-6afac5cbed48.png?v=1716190605&width=1000"
+    },
+
+    {
+        "id":7,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 4 RETRO SE CRAFT MEDIUM OLIVE",
+        "price":27499,
+        "category":"Shoes",
+        "image":"https://crepdogcrew.com/cdn/shop/files/1_cbf64d7f-10ff-4bea-947e-64184298de19.png?v=1701499297&width=1000"
+    },
+
+    {
+        "id":8,
+        "name":"ADIDAS YEEZY",
+        "title":"ADIDAS YEEZY BOOST 350 V2 ONYX",
+        "price":14999,
+        "category":"Shoes",
+        "image":"https://crepdogcrew.com/cdn/shop/products/ADIDASYEEZYBOOST350V2ONYX.jpg?v=1673709028&width=1400"
+    },
+
+    {
+        "id":9,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 RETRO HIGH WHITE BLUE BLACK",
+        "price":18499,
+        "category":"Shoes",
+        "image":"https://crepdogcrew.com/cdn/shop/products/AIRJORDAN1RETROHIGHOGUniversityBlue.jpg?v=1680252294&width=1400"
+    },
+
+    {
+        "id":10,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 LOW BRED TOE 2.0",
+        "price":8999,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/files/1_23186938-5acb-459a-bf10-edc4fe6a8769.png?v=1698479314&width=1000"
+    },
+
+    {
+        "id":11,
+        "name":"NIKE DUNK",
+        "title":"NIKE DUNK LOW WHITE BLACK",
+        "price":7999,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/files/image_8f504660-fd59-4e51-9f60-97c58eb56af9.jpg?v=1697461668&width=1000"
+    },
+
+    {
+        "id":12,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 LOW ALTERNATE BRED TOE",
+        "price":18999,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/files/AirJordan1LowAlternateBredToe.png?v=1683549209&width=1400"
+    },
+
+    {
+        "id":13,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 RETRO",
+        "price":13499,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/files/1_282a7a7a-e387-4d3d-a142-79abaf0d1a30.png?v=1706882326&width=1000"
+    },
+
+    {
+        "id":14,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 RETRO HIGH OG YELLOW ",
+        "price":15499,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/files/1_fd82f7a6-b60b-46c5-a5f6-48549403ce91.png?v=1707298145&width=1000"
+    },
+
+    {
+        "id":15,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 LOW GREEN GLOW",
+        "price":8499,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/files/1_5bc0455d-01fe-4ce0-b0ad-8776b8ea767a.png?v=1713530813&width=1000"
+    },
+
+    {
+        "id":16,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 LOW ASHEN SLATE",
+        "price":8999,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/files/1_040f44a7-7409-4063-a983-ed0f4364946f.png?v=1710597206&width=1000"
+    },
+
+    {
+        "id":17,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 4 RETRO BRED REIMAGINED",
+        "price":14999,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/files/1_ea0f1e39-3da8-4559-bcb8-574f0e674e9b.png?v=1706996836&width=1000"
+    },
+
+    {
+        "id":18,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 RETRO HIGH OG SP",
+        "price":17499,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/files/1_b6eedab1-0a40-4f62-8c7c-5446087a9234.png?v=1693646008&width=1000"
+    },
+
+    {
+        "id":19,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 RETRO HIGH OG A MA MANIÉRE",
+        "price":23499,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/products/JORDAN1RETROHIGHOGAMAMANIERE.jpg?v=1667826034&width=1400"
+    },
+
+    {
+        "id":20,
+        "name":"NIKE AIR JORDAN",
+        "title":"JORDAN 1 MID LIGHT SMOKE GREY ",
+        "price":11999,
+        "category":"Shoes!",
+        "image":"https://crepdogcrew.com/cdn/shop/files/LIGHTSMOKEGREY.png?v=1706194006&width=1000"
+    }
+]
