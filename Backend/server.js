@@ -34,6 +34,10 @@ try {
     console.log("Error :",error)
 }
 
+app.get("/",(req,res)=>{
+    return res.send("Hello")
+})
+
 app.get('/book', async (req, res) => {
     try {
         const book=await Book.find()
