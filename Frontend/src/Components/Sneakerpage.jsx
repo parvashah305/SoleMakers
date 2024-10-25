@@ -6,7 +6,7 @@ function Sneakerpage({handleClick}) {
     useEffect(()=>{
       const getBook=async()=>{
         try {
-          const res=await fetch("https://solemakers-backend.vercel.app/")
+          const res=await fetch("https://solemakers-backend.vercel.app/book")
           const data=await res.json()
           
           setBook(data)

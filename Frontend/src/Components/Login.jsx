@@ -17,7 +17,7 @@ function Login() {
     };
 
     try {
-      const res = await fetch("https://solemakers-backend.vercel.app/", {
+      const res = await fetch("https://solemakers-backend.vercel.app/user/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -18,7 +18,7 @@ function Signup() {
     };
 
     try {
-      const res = await fetch("https://solemakers-backend.vercel.app/", {
+      const res = await fetch("https://solemakers-backend.vercel.app/user/signup", {
         method: "POST", // Set the HTTP method to POST
         headers: {
           "Content-Type": "application/json", // Specify JSON content type
