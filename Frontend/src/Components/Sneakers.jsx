@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import list from "../../public/list.json";
 import Slider from "react-slick";
 import Cards from "./Cards";
 import { Link } from "react-router-dom";
-function Sneakers() {
+function Sneakers({handleClick}) {
+
+  const [book,setBook]=useState([])
+
+  useEffect(()=>{
+    const getBook=async()=>{
+      const res=await fetch("http://localhost:3000/book")
+      const data= await res.json()
+      
+      setBook(data)
+    }
+    getBook()
+  },[])
+
   var settings = {
     dots: true,
     infinite: false,
@@ -41,7 +54,7 @@ function Sneakers() {
     ],
   };
 
-  const filterData = list.filter((data) => data.category === "Shoes");
+  const filterData = book.filter((data) => data.category === "Shoes");
   
   return (
     <>
@@ -61,7 +74,7 @@ function Sneakers() {
         <div>
           <Slider {...settings}>
             {filterData.map((items)=>(
-              <Cards item={items} key={items.id}/>
+              <Cards item={items} key={items.id} handleClick={handleClick}/>
             ))}
           </Slider>
         </div>

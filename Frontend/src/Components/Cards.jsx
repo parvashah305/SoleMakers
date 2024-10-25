@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Cards({item}) {
+export default function Cards({item,handleClick}) {
     console.log(item)
   return (
     <>
@@ -20,7 +20,7 @@ export default function Cards({item}) {
             <p>{item.title}</p>
             <div className="card-actions justify-between">
               <div className="badge badge-outline">&#8377;{item.price}</div>
-              <div className="badge badge-outline hover:bg-pink-600 hover:text-white cursor-pointer">Buy now</div>
+              <div onClick={()=>handleClick(item)} className="badge badge-outline hover:bg-pink-600 hover:text-white cursor-pointer">Buy now</div>
             </div>
           </div>
         </div>

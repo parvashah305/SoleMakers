@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import Login from "./Login";
+import { useAuth } from "../context/AuthProvider";
+import Logout from "./Logout";
 
-function Navbar() {
-
+function Navbar({size}) {
+  const [authUser,setAuthUser]=useAuth()
   const[theme,settheme]=useState(
     localStorage.getItem("theme")? localStorage.getItem("theme"):"light"
   );
@@ -53,9 +55,7 @@ function Navbar() {
         <Link to="/contact">Contact</Link>
         
       </li>
-      <li>
-        <a>About</a>
-      </li>
+      
 
       <Outlet/>
     </>
@@ -154,13 +154,28 @@ function Navbar() {
                 </svg>
               </label>
             </div>
-            <div>
+            {authUser ? (
+              <Logout />
+            ) : (
+              <div className="">
+                <a
+                  className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
+                  onClick={() =>
+                    document.getElementById("my_modal_3").showModal()
+                  }
+                >
+                  Login
+                </a>
+                <Login />
+              </div>
+            )}
+            {/* <div>
               <a className="bg-black text-white cursor-pointer px-3 py-2 rounded-md hover:bg-slate-600 duration-300"  onClick={() =>
                     document.getElementById("my_modal_3").showModal()}> 
                 Login
               </a>
               <Login/>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

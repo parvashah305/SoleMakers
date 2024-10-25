@@ -1,9 +1,21 @@
-import React from "react";
-import list from "../../public/list.json"
+import React, { useEffect, useState } from "react";
 import Cards from "./Cards";
 import { Link } from "react-router-dom";
-function Sneakerpage() {
-    console.log(list)
+function Sneakerpage({handleClick}) {
+    const[book,setBook]=useState([])
+    useEffect(()=>{
+      const getBook=async()=>{
+        try {
+          const res=await fetch("http://localhost:3000/book")
+          const data=await res.json()
+          
+          setBook(data)
+        } catch (error) {
+          console.log(error)
+        }
+      }
+      getBook()
+    },[])
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 font-sans">
@@ -17,8 +29,8 @@ function Sneakerpage() {
         <Link to="/"><button className="btn btn-secondary block m-auto my-6 font-sans text-xl">Back</button></Link>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 mt-12">
-            {list.map((items)=>(
-                <Cards item={items} key={items.id}/>
+            {book.map((items)=>(
+                <Cards item={items} key={items.id} handleClick={handleClick}/>
             ))}
         </div>
       </div>
