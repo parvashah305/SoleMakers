@@ -17,7 +17,7 @@ function Login() {
     };
 
     try {
-      const res = await fetch("http://localhost:3000/user/login", {
+      const res = await fetch("https://solemakers-backend.vercel.app/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -34,7 +34,9 @@ function Login() {
           theme: "light",
         });
         document.getElementById("my_modal_3").close();
-        window.location.reload()
+        setTimeout(()=>{
+          window.location.reload()
+        },3000)
         localStorage.setItem("Users", JSON.stringify(result));
       } else {
         toast.error(`Error: ${result.message}`, {

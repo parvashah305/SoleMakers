@@ -11,7 +11,7 @@ function Sneakers({handleClick}) {
 
   useEffect(()=>{
     const getBook=async()=>{
-      const res=await fetch("http://localhost:3000/book")
+      const res=await fetch("https://solemakers-backend.vercel.app/")
       const data= await res.json()
       
       setBook(data)
