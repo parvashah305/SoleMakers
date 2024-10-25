@@ -10,7 +10,16 @@ const app = express()
 const port = 3000
 
 dotenv.config()
-app.use(cors())
+const allowedOrigins = ['https://solemakers-parvashah.vercel.app/'];
+app.use(cors({
+    origin: function (origin, callback) {
+        if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    }
+}));
 app.use(bodyParser.json())
 
 dbUrl=process.env.MONGO_URI
